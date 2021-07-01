@@ -10,7 +10,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #444;
-    background: linear-gradient(0deg, #ccc, #fff 30%);
+    background: linear-gradient(0deg, rgb(71, 71, 71), #fff 20%);
   
 }
 
@@ -89,10 +89,11 @@ ul {
   display: flex;
   align-items: center; /* 수직정렬 */
   justify-content: center; /* 수평정렬 */
-  background-image: url(images/circle-pie1.svg);
+  background-image: url(images/ssg_emblem3.gif);
   background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 80%;
+ /* background-position: right bottom;*/
+  background-position: 0px 70px;
+  background-size: 100%;
 }
 
 #title figure img {
